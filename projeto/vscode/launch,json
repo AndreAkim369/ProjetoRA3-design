@@ -1,0 +1,21 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Java",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "seu-projeto",
+            "args": [],
+            "stopOnEntry": false,
+            "sourcePaths": [
+                "${workspaceFolder}/src/main/java"
+            ],
+            "classpath": [
+                "${workspaceFolder}/target/classes"
+            ]
+        }
+    ]
+}
